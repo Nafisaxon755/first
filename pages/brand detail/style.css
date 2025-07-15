@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.fabritex {
+  background-color: rgba(242, 245, 247, 1);
+}
+
+.container-fabritex {
+  max-width: 1150px;
+  margin: 0px auto;
+}
+
+.fabritex {
+  margin-top: 20px;
+}
+
+.fabritex__main-shop {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.fabritex__page {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #8a8a8a;
+}
+
+.selected-page {
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+
+  line-height: 16px;
+  letter-spacing: 0%;
+  color: rgba(0, 0, 0, 1);
+}
+
+.fabritex__title {
+  margin-top: 20px;
+  font-family: Prosto One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 40px;
+
+  line-height: 48px;
+  letter-spacing: 0%;
+}
+
+.fabritex__marketing {
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+}
+
+.fabritex__marketing-text {
+  font-family: Raleway;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.fabritex-product {
+  margin-top: 30px;
+  font-family: Prosto One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 30px;
+  line-height: 32px;
+  letter-spacing: 0%;
+}
+
+.filter {
+  margin-top: 100px;
+  background: rgba(33, 37, 38, 1);
+  color: white;
+  padding: 24px;
+  width: 280px;
+  border-radius: 8px;
+}
+
+.filter__group {
+  margin-bottom: 32px;
+}
+
+.filter__title {
+  font-family: Prosto One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  margin-bottom: 12px;
+}
+
+.filter__checkbox,
+.filter__radio {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  accent-color: #ff6a00;
+  margin-right: 8px;
+}
+
+.filter__range-bar {
+  height: 4px;
+  width: 190px;
+  background: #ffffff;
+  border-radius: 2px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.filter__range-track {
+  background: #ff6a00;
+  height: 4px;
+  width: 80%;
+  position: absolute;
+  left: 20%;
+  top: 0;
+  border-radius: 2px;
+}
+
+.filter__range-thumb {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #ff6a00;
+  border-radius: 50%;
+  top: -5px;
+}
+
+.filter__range-thumb--left {
+  left: 18%;
+}
+.filter__range-thumb--right {
+  left: 94%;
+}
+
+.filter__range-inputs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter__title {
+  font-family: Prosto One;
+  font-weight: 300;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.filter__input {
+  background: white;
+  color: black;
+  border: 1px solid #666;
+  border-radius: 4px;
+  padding: 8px 8px;
+  width: 80px;
+  font-family: Raleway;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.filter__input-right {
+  background: white;
+  color: rgb(201, 198, 198);
+  border: 1px solid #666;
+  border-radius: 4px;
+  padding: 8px 8px;
+  width: 80px;
+  font-family: Raleway;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.filter__dash {
+  color: white;
+}
+
+.filter__scroll {
+  max-height: 120px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.filter__group-color {
+  background-color: rgba(59, 59, 59, 1);
+  margin-bottom: 20px;
+}
+
+.filter__title {
+  padding: 5px;
+  border-bottom: 3px solid black;
+}
+
+.filter__scroll {
+  padding-left: 5px;
+}
+
+.filter__reset {
+  background: #444;
+  color: white;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.filter__reset:hover {
+  background: #555;
+}
+
+.fabritex__banners {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.fabritex__aside-banner {
+  cursor: pointer;
+  height: 180px;
+}
+
+.fabritex__sort {
+  margin-top: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fabritex__sort-left,
+.fabritex__sort-btn {
+  margin-bottom: 30px;
+}
+
+.sort-left__bold {
+  font-family: Prosto One;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.fabritex__sort-left {
+  font-family: Raleway;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.fabritex__sort-btn button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.catalog {
+  flex-grow: 1;
+  padding: 24px;
+}
+
+.fabritex__cards {
+  flex-grow: 1;
+  padding: 24px;
+  flex-direction: column;
+  width: 100%;
+}
+.catalog__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  transition: box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-card__image {
+  width: 100%;
+  height: 140px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.product-card__image-underline {
+  padding: 5px 0px;
+}
+
+.product-card__price-stock {
+  height: 13px;
+}
+
+.product-card__title {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  min-height: 40px;
+}
+
+.product-card__price {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-card__price--old {
+  font-size: 14px;
+  color: #888;
+  text-decoration: line-through;
+  margin-left: 8px;
+  font-weight: normal;
+}
+
+.product-card__button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.product-card__button img {
+  height: 50px;
+}
+
+
+
+@media (max-width: 1200px) {
+  .container-fabritex {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .fabritex__main-shop {
+    flex-direction: column;
+  }
+
+  .filter {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .fabritex__banners {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .fabritex__aside-banner {
+    height: auto;
+    width: 48%;
+  }
+}
+
+@media (max-width: 768px) {
+  .fabritex__marketing {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .fabritex__sort {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
+
+@media (max-width: 576px) {
+  .catalog__grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 16px;
+  }
+
+  .product-card__title {
+    font-size: 13px;
+  }
+
+  .product-card__price {
+    font-size: 14px;
+  }
+
+  .product-card__price--old {
+    font-size: 12px;
+  }
+
+  .filter__range-bar {
+    width: 100%;
+  }
+
+  .filter__input,
+  .filter__input-right {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .filter__range-inputs {
+    flex-direction: column;
+    gap: 4px;
+  }
+}

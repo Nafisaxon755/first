@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prosto+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="fabritex">
+      <div class="container-fabritex">
+        <p class="fabritex__page">
+          Главная / Бренды / <span class="selected-page">Farbitex</span>
+        </p>
+        <h1 class="fabritex__title">Fabritex</h1>
+        <div class="fabritex__marketing">
+          <img src="images/brand_fab.svg" alt="" class="fabritex-logo" />
+          <p class="fabritex__marketing-text">
+            Представлен линейкой наиболее востребованных лакокрасочных
+            материалов, выгодно <br />
+            отличающихся от аналогичных продуктов соотношением цена/качество.
+            Грунтовки, шпатлёвки, <br />
+            акриловые краски, алкидные эмали, клей и олифа, растворители,
+            защитно-красящий состав — <br />
+            все эти материалы экономичны и практичны.
+          </p>
+        </div>
+        <h2 class="fabritex-product">Товары Farbitex в нашем магазине</h2>
+
+        <div class="fabritex__main-shop">
+          <div class="fabritex__aside">
+            <aside class="filter">
+              <div class="filter__group filter__group--price">
+                <h4 class="filter__title">Цена, ₽</h4>
+                <div class="filter__range-bar">
+                  <div class="filter__range-track"></div>
+                  <div
+                    class="filter__range-thumb filter__range-thumb--left"
+                  ></div>
+                  <div
+                    class="filter__range-thumb filter__range-thumb--right"
+                  ></div>
+                </div>
+                <div class="filter__range-inputs">
+                  <input class="filter__input" type="text" value="5100" />
+                  <span class="filter__dash">—</span>
+                  <input
+                    class="filter__input-right"
+                    type="text"
+                    value="150000"
+                  />
+                </div>
+              </div>
+
+              <div class="filter__group">
+                <h4 class="filter__title">Бренд</h4>
+                <label class="filter__checkbox">
+                  <input type="checkbox" checked /> FarbiteX
+                </label>
+              </div>
+
+              <div class="filter__group">
+                <h4 class="filter__title">Страна производитель</h4>
+                <div class="filter__scroll">
+                  <label class="filter__checkbox"
+                    ><input type="checkbox" /> Англия</label
+                  >
+                  <label class="filter__checkbox"
+                    ><input type="checkbox" /> Болгария</label
+                  >
+                  <label class="filter__checkbox"
+                    ><input type="checkbox" /> Венесуэла</label
+                  >
+                  <label class="filter__checkbox"
+                    ><input type="checkbox" /> Испания</label
+                  >
+                  <label class="filter__checkbox"
+                    ><input type="checkbox" checked /> Италия</label
+                  >
+                  <label class="filter__checkbox"
+                    ><input type="checkbox" /> Португалия</label
+                  >
+                  <label class="filter__checkbox"
+                    ><input type="checkbox" /> Россия</label
+                  >
+                  <label class="filter__checkbox"
+                    ><input type="checkbox" /> Словения</label
+                  >
+                </div>
+              </div>
+
+              <div class="filter__group-color">
+                <h4 class="filter__title">Цвет</h4>
+                <div class="filter__scroll">
+                  <label class="filter__checkbox"
+                    ><input type="checkbox" /> Белый</label
+                  >
+                  <label class="filter__checkbox"
+                    ><input type="checkbox" /> Голубой</label
+                  >
+                  <label class="filter__checkbox"
+                    ><input type="checkbox" /> Жёлтый</label
+                  >
+                  <label class="filter__checkbox"
+                    ><input type="checkbox" checked /> Зелёный</label
+                  >
+                  <label class="filter__checkbox"
+                    ><input type="checkbox" /> Красный</label
+                  >
+                  <label class="filter__checkbox"
+                    ><input type="checkbox" /> Оранжевый</label
+                  >
+                  <label class="filter__checkbox"
+                    ><input type="checkbox" /> Розовый</label
+                  >
+                </div>
+              </div>
+
+              <div class="filter__group">
+                <h4 class="filter__title">Способ доставки</h4>
+                <label class="filter__radio"
+                  ><input type="radio" name="delivery" /> Самовывоз</label
+                >
+                <label class="filter__radio"
+                  ><input type="radio" name="delivery" /> Доставка
+                  курьером</label
+                >
+                <label class="filter__radio"
+                  ><input type="radio" name="delivery" checked /> Любой</label
+                >
+              </div>
+
+              <button class="filter__reset">СБРОСИТЬ ФИЛЬТР</button>
+            </aside>
+            <div class="fabritex__banners">
+              <img
+                src="images/fabritex aside.svg"
+                alt=""
+                class="fabritex__aside-banner"
+              />
+              <img
+                src="images/fabritex aside 2.svg"
+                alt=""
+                class="fabritex__aside-banner"
+              />
+            </div>
+          </div>
+
+          <div class="fabritex__cards">
+            <div class="fabritex__sort">
+              <p class="fabritex__sort-left">
+                <span class="sort-left__bold">Сортировать: </span>
+                По популярности
+              </p>
+
+              <p class="fabritex__sort-btn">
+                Вид:
+                <button>
+                  <img
+                    src="images/fabritex_sort1.svg"
+                    alt=""
+                    class="fabritex__sort-img"
+                  /></button
+                ><button>
+                  <img
+                    src="images/fabritex_sort2.svg"
+                    alt=""
+                    class="fabritex__sort-img"
+                  />
+                </button>
+              </p>
+            </div>
+            <div class="catalog__grid">
+              <article class="product-card">
+                <img src="images/like.jpg" alt="" class="product-card__like" />
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar1.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar1.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img src="images/like.jpg" alt="" class="product-card__like" />
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar2.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar3.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img src="images/like.jpg" alt="" class="product-card__like" />
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar4.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar5.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img src="images/like.jpg" alt="" class="product-card__like" />
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar6.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img src="images/like.jpg" alt="" class="product-card__like" />
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar1.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar3.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img src="images/like.jpg" alt="" class="product-card__like" />
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar6.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img src="images/like.jpg" alt="" class="product-card__like" />
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar2.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar3.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img src="images/like.jpg" alt="" class="product-card__like" />
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar4.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img src="images/like.jpg" alt="" class="product-card__like" />
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar5.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img src="images/like.jpg" alt="" class="product-card__like" />
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar1.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar3.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar1.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img src="images/like.jpg" alt="" class="product-card__like" />
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar3.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar6.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img src="images/like.jpg" alt="" class="product-card__like" />
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar1.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+              <article class="product-card">
+                <img
+                  class="product-card__image"
+                  src="images/fabritex tovar1.svg"
+                  alt="Товар"
+                />
+                <img
+                  src="images/Group 441.svg"
+                  alt=""
+                  class="product-card__image-underline"
+                />
+                <h3 class="product-card__title">
+                  Эмаль Condor ПФ-115 жёлтая <br />
+                  1.8 кг
+                </h3>
+                <div class="product-card__price">
+                  500 ₽ <span class="product-card__price--old">720 ₽</span>
+
+                  <img
+                    src="images/in stock.svg"
+                    alt=""
+                    class="product-card__price-stock"
+                  />
+                  <button class="product-card__button">
+                    <img
+                      src="images/product card korzinka.jpg"
+                      alt=""
+                      class="product-card__img-buy"
+                    />
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
