@@ -42,6 +42,10 @@ header {
   font-weight: 600;
 }
 
+.header__logo-link {
+  color: red;
+}
+
 .header__texts a {
   color: #fc573b;
   font-size: 14px;
