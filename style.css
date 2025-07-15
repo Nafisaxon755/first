@@ -10,11 +10,16 @@
   padding: 0 16px;
   margin: 0 auto;
 }
+.time{
+  color:pink;
+  font-size:larger;
+  font-weight: 800;
+}
 
 /* HEADER */
 header {
-  background-color: #232728;
-  color: white;
+  background-color: #ff0000;
+  color: rgb(8, 235, 0);
 }
 
 .header__wrapper {
