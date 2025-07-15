@@ -13,8 +13,8 @@
 
 /* HEADER */
 header {
-  background-color: #232728;
-  color: white;
+  background-color: #ff0000;
+  color: rgb(8, 235, 0);
 }
 
 .header__wrapper {
